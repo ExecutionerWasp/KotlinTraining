@@ -6,7 +6,6 @@ import requests.MonobankRequest
 
 fun main(args: Array<String>) {
     reflectionTraining()
-
 }
 
 @SuppressWarnings("unchecked")
