@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     kotlin("jvm") version "1.5.21"
     kotlin("plugin.allopen") version "1.4.32"
+    kotlin("plugin.spring") version "1.3.72"
     java
     id("org.springframework.boot") version "2.5.3"
     application
