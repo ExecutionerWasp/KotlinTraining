@@ -26,7 +26,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    implementation("org.springframework.boot:spring-boot-dev-tools")
+//    implementation("org.springframework.boot:spring-boot-dev-tools")
     implementation("net.pwall.mustache:kotlin-mustache:0.7")
     runtimeOnly("com.h2database:h2")
 }

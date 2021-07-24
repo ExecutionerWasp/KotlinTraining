@@ -1,11 +1,14 @@
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
 import reflection.Employee
 import reflection.Instance
 import reflection.ReflectionProcessor
 import requests.Mnemonic
 import requests.MonobankRequest
+import spring.BlogApplication
 
 fun main(args: Array<String>) {
-    reflectionTraining()
+    runApplication<BlogApplication>(*args)
 }
 
 @SuppressWarnings("unchecked")
